@@ -11,7 +11,6 @@ public class BasePage {
     public static Properties prop;
     public static WebDriver driver;
 
-    // Constructor to load properties
     public BasePage() {
         try {
             prop = new Properties();
